@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Generated Prisma Client
+apps/backend/generated/prisma/
+
+# Build files
+dist/
+build/
+coverage/
+
+# Turbo cache
+.turbo/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+# TypeScript cache
+*.tsbuildinfo
+# AI coding tool files
+apps/backend/.agents/
+apps/backend/.claude/
+apps/backend/.windsurf/
+apps/backend/skills-lock.json
+
+# Local schema backups
+apps/backend/prisma/schema.prisma.backup
+apps/backend/prisma/better-auth-schema.prisma
